@@ -42,9 +42,9 @@ RSpec.describe Library do
             dpl.add_book(professor)
             dpl.add_book(villette)
             dpl.add_book(mockingbird)
+            
             expect(dpl.authors).to eq [charlotte_bronte, harper_lee]
             expect(dpl.books).to eq [jane_eyre, professor, villette, mockingbird]
-           
         end
     end
 
