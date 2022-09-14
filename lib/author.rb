@@ -4,8 +4,9 @@ class Author
     attr_reader :first_name,
                 :last_name, 
                 :name, 
-                :books
-    attr_writer :write
+                :books, 
+                :write
+    # attr_accessor :write
 
     def initialize(attribute)
         @first_name = attribute[:first_name]
